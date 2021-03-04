@@ -1,9 +1,8 @@
 
 
 # JavaScript Digital and Analog Clock  🚀
-![Clock](clock.gif)
 
-
+![Clock](./clock.gif)
 # Project Overview
 
  In this 4-week [Bit Camp](https://github.com/bitprj/BitCamp/tree/master/Javascript), co-hosted by Twilio, students will learn the JavaScript programming language.
