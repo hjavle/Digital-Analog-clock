@@ -1,7 +1,7 @@
 
 
 # JavaScript Digital and Analog Clock  🚀
-![Clock](/clock.gif)
+![Clock](clock.gif)
 
 
 # Project Overview
