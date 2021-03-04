@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100mvh;
+    background-color: black;
+    color: white;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    
+}
+.search{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100mvh;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+.analog{
+    height: 300px;
+    width:300px;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    background-color:black;
+    color:white;
+    border-radius: 50%;
+    border: solid;
+    border-color: gray;
+    border-width: 6vh;
+    font-size: 2vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1),                
+                0 20px 20px rgba(0, 0, 0, .1),                
+                0 0 0 4px rgba(255, 255, 255, 1);
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.clock{
+    height: 300px;
+    width:300px;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    background-color:black;
+    color:white;
+    border-radius: 50%;
+    border: solid;
+    border-color: gray;
+    border-width: 6vh;
+    font-size: 2vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1),
+                0 20px 20px rgba(0, 0, 0, .1),
+                0 0 0 4px rgba(255, 255, 255, 1);
+    position: relative;
+}
+.clock::after{
+    position: absolute;
+    content:'';
+    height: 20px;
+    width:20px;
+    background-color:red;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:rgb(243, 216, 176);
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+}
+.clock .number{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;   
+    text-align: center;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 3vh;
+    --rotation:0;
+    transform: rotate(var(--rotation));
+}
+.clock .number1 { --rotation: 30deg; }
+.clock .number2 { --rotation: 60deg; }
+.clock .number3 { --rotation: 90deg; }
+.clock .number4 { --rotation: 120deg; }
+.clock .number5 { --rotation: 150deg; }
+.clock .number6 { --rotation: 180deg; }
+.clock .number7 { --rotation: 210deg; }
+.clock .number8 { --rotation: 240deg; }
+.clock .number9 { --rotation: 270deg; }
+.clock .number10 { --rotation: 300deg; }
+.clock .number11 { --rotation: 330deg; }
+.clock .number12 { --rotation: 360deg; }
+
+.clock .hand {
+    position: absolute;
+    bottom:50%;
+    left: 50%;
+    height: 40%;
+    width: 5%;
+    background-color: black;
+    transform: translate(-50%, 0);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border: 1px solid white;
+    --rotation:0;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+}
+    
+.clock .hand.hour{
+    width: 7px;
+	height: 30%;
+    background-color: black;
+    z-index: 10;
+    
+}
+.clock .hand.minute{
+    width: 7px;
+	height: 43%;
+    background-color: black;
+    z-index: 11;
+}
+.clock .hand.second{
+    width: 3px;
+	height: 45%;
+    background-color: red;
+    z-index: 12;
+}
+.clock::after{
+    z-index: 100;
+}
+.digital {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color:black;
+    color:white;
+    border:solid;
+    border-width: 6vh;
+    border-color: gray;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    font-size: 6vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1),
+                0 20px 20px rgba(0, 0, 0, .1),
+                0 0 0 4px rgba(255, 255, 255, 1);
+}
+.timezone{
+    margin-top: 6vw;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 2vh;
+    color: whitesmoke;
+}
+.submit_button{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2.5vh;
+    color:black;
+    background-color: whitesmoke;
+    border: black;
+    
+}

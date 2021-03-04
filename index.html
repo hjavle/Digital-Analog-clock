@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="node_modules/moment/moment.js"></script>
+    <script script src="./node_modules/moment-timezone/moment-timezone.js"></script>
+     <!-- reference Moment.js library -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone.js" type="text/javascript" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.js" type="text/javascript" ></script>
+    <script src="https://cdn.jsdelivr.net/gh/manuelmhtr/countries-and-timezones@latest/dist/index.js" type="text/javascript"></script>
+    <script defer src="clock.js"></script> 
+    <script type="module" src="script.js"></script>
+
+</head>
+<body>
+    <form class = "search">
+        <span class = "searchLocation">
+            <input type="text" id="search-city" placeholder="search city">
+            <button type="button" id="submit">Submit</button>
+            <input type="radio" id="digital" name="choice" value="digital">
+            <label for="digita">Digital</label>
+            <input type="radio" id="analog" name="choice" value="analog">
+            <label for="analog">Analog</label>
+        </span> 
+    </form>
+    <br>
+    <div class="clock analog" id="analog clock">
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+        ​<div class="hand hour" data-hour-hand></div>
+        ​<div class="hand minute" data-minute-hand></div>
+        ​<div class="hand second" data-second-hand></div>
+    </div>
+
+    <div class="digital" id="digital clock">    
+   <!--     <p id="Atlanta-time"></p>-->
+        <p id="city-time"></p>
+    </div>
+    
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="node_modules/moment/moment.js"></script>
+<script src="./node_modules/moment-timezone/moment-timezone.js"></script>
+<script type="module" src="clock.js"></script> 
+<script type="module" src="script.js"></script>
+
+<!-- jQuery, Popper.js Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+
