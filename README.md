@@ -77,5 +77,7 @@ For the final assignment, students will integrate all previous assignments into 
 Learning Objectives
 Integrating both clocks into one interactive interface Adding buttons to switch between clocks
 
-##Credits
-[Bit Camp](https://github.com/bitprj/BitCamp) [Twilio](https://www.twilio.com/)
+## Credits
+
+* [Bit Camp](https://github.com/bitprj/BitCamp) 
+* [Twilio](https://www.twilio.com/)
