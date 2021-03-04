@@ -1,4 +1,4 @@
-
+<img src="https://img.shields.io/badge/html-29.2%25-green"> <img src= "https://img.shields.io/badge/css-33.6%25-green"> <img src= "https://img.shields.io/badge/JavaScript-37.2%25-green"> 
 
 # JavaScript Digital and Analog Clock  🚀
 
@@ -72,3 +72,10 @@ Creating an analog clock from the digital clock
 ### Week 4
 
 📚 Summary
+For the final assignment, students will integrate all previous assignments into a single interface and add some bells and whistles.
+
+Learning Objectives
+Integrating both clocks into one interactive interface Adding buttons to switch between clocks
+
+##Credits
+[Bit Camp](https://github.com/bitprj/BitCamp) [Twilio](https://www.twilio.com/)
